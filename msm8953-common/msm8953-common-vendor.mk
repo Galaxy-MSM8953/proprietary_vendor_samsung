@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/secimshttpclient_library.xml:system/etc/permissions/secimshttpclient_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/vsimservice_library.xml:system/etc/permissions/vsimservice_library.xml \
+    vendor/samsung/msm8953-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/samsung/msm8953-common/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/samsung/msm8953-common/proprietary/framework/imsmanager.jar:system/framework/imsmanager.jar \
     vendor/samsung/msm8953-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
