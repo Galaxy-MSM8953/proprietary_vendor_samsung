@@ -25,12 +25,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/samsung/j7popltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
