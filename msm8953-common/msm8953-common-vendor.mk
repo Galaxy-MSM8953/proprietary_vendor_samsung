@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdafcamif.so:system/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/samsung/msm8953-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/msm8953-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -128,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
