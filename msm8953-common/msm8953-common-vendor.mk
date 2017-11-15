@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdaf.so:system/lib/libmmcamera_pdaf.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdafcamif.so:system/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/msm8953-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
