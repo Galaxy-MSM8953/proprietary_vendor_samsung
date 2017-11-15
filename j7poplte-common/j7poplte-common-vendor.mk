@@ -16,7 +16,30 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/D05QL_s5k5e3yx_module_info.xml:system/etc/camera/D05QL_s5k5e3yx_module_info.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/L16OL_s5k3p3sx_module_info.xml:system/etc/camera/L16OL_s5k3p3sx_module_info.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/M05QS_imx241_module_info.xml:system/etc/camera/M05QS_imx241_module_info.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/P08QL_s5k4h5yc_module_info.xml:system/etc/camera/P08QL_s5k4h5yc_module_info.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/R08QS_imx219_module_info.xml:system/etc/camera/R08QS_imx219_module_info.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx241_chromatix.xml:system/etc/camera/imx241_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8953_camera_j7pop.xml:system/etc/camera/msm8953_camera_j7pop.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_chromatix.xml:system/etc/camera/s5k5e3yx_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_f2_2_chromatix.xml:system/etc/camera/s5k5e3yx_f2_2_chromatix.xml \
+    vendor/samsung/j7poplte-common/proprietary/etc/camera/sr259_chromatix.xml:system/etc/camera/sr259_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/samsung/j7poplte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/samsung/j7poplte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
