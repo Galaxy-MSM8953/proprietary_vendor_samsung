@@ -342,6 +342,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_vt_30fps_lc898122.so:system/vendor/lib/libchromatix_s5k5e3yx_vt_30fps_lc898122.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_vt_lc898122.so:system/vendor/lib/libchromatix_s5k5e3yx_vt_lc898122.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_s5k5e3yx_zsl_preview_lc898122.so \
+    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
+    vendor/samsung/j7poplte-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
