@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/j7popltespr/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/j7popltespr/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/j7popltespr/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7popltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/j7popltespr/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/j7popltespr/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -29,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/j7popltespr/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/j7popltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -36,6 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
