@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/samsung/msm8953-common/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
+    vendor/samsung/msm8953-common/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -75,6 +77,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/secimshttpclient_library.xml:system/etc/permissions/secimshttpclient_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/vsimservice_library.xml:system/etc/permissions/vsimservice_library.xml \
+    vendor/samsung/msm8953-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/samsung/msm8953-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/samsung/msm8953-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/samsung/msm8953-common/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/samsung/msm8953-common/proprietary/framework/imsmanager.jar:system/framework/imsmanager.jar \
@@ -82,19 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
     vendor/samsung/msm8953-common/proprietary/framework/secimshttpclient.jar:system/framework/secimshttpclient.jar \
     vendor/samsung/msm8953-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SamsungRec_06002.so:system/lib/lib_SamsungRec_06002.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SoundAlive_3DPosition_ver202.so:system/lib/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SoundAlive_play_plus_ver127a.so:system/lib/lib_SoundAlive_play_plus_ver127a.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_SoundBooster_ver710.so:system/lib/lib_SoundBooster_ver710.so \
-    vendor/samsung/msm8953-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/msm8953-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -105,15 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdaf.so:system/lib/libmmcamera_pdaf.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdafcamif.so:system/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/msm8953-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/msm8953-common/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
