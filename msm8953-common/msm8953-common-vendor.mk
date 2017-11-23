@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
@@ -342,6 +343,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -449,6 +452,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
