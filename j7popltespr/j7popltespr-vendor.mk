@@ -17,34 +17,37 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/j7popltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/j7popltespr/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/j7popltespr/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/j7popltespr/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/j7popltespr/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7popltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/j7popltespr/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/j7popltespr/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/samsung/j7popltespr/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
+    vendor/samsung/j7popltespr/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/j7popltespr/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/j7popltespr/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
+    vendor/samsung/j7popltespr/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j7popltespr/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/j7popltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -66,8 +69,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
@@ -90,5 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
