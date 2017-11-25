@@ -25,9 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/j7popltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/j7popltespr/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/samsung/j7popltespr/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/samsung/j7popltespr/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/samsung/j7popltespr/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/samsung/j7popltespr/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/j7popltespr/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7popltespr/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
