@@ -29,7 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/msm8953-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/msm8953-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/msm8953-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/samsung/msm8953-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/samsung/msm8953-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/msm8953-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/msm8953-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/msm8953-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -88,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_q3a_core.so:system/lib/libmmcamera2_q3a_core.so \
@@ -109,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/samsung/msm8953-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libedmnativehelper.so:system/lib64/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
