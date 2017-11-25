@@ -76,18 +76,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/imsmanager_library.xml:system/etc/permissions/imsmanager_library.xml \
+    vendor/samsung/msm8953-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/secimshttpclient_library.xml:system/etc/permissions/secimshttpclient_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/vsimservice_library.xml:system/etc/permissions/vsimservice_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/samsung/msm8953-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/samsung/msm8953-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/samsung/msm8953-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/samsung/msm8953-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/samsung/msm8953-common/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/samsung/msm8953-common/proprietary/framework/imsmanager.jar:system/framework/imsmanager.jar \
     vendor/samsung/msm8953-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/samsung/msm8953-common/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
     vendor/samsung/msm8953-common/proprietary/framework/secimshttpclient.jar:system/framework/secimshttpclient.jar \
     vendor/samsung/msm8953-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/msm8953-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
@@ -118,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/libedmnativehelper.so:system/lib64/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
@@ -459,6 +462,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
@@ -478,14 +482,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/mmi_gps.so:system/vendor/lib64/mmi_gps.so \
     vendor/samsung/msm8953-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/msm8953-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
     libtime_genoff \
     libsdm-disp-apis \
     ImsSettings \
     TimeService \
     ImsLogger+ \
+    com.qualcomm.location \
     colorservice \
     com.qti.snapdragon.sdk.display
