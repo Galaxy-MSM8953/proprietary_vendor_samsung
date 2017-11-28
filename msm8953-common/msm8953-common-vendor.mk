@@ -18,13 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/msm8953-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/msm8953-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/samsung/msm8953-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/msm8953-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/msm8953-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/samsung/msm8953-common/proprietary/bin/imsd:system/bin/imsd \
     vendor/samsung/msm8953-common/proprietary/bin/iop:system/bin/iop \
     vendor/samsung/msm8953-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/samsung/msm8953-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/samsung/msm8953-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/msm8953-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/samsung/msm8953-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -78,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/imsmanager_library.xml:system/etc/permissions/imsmanager_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
@@ -89,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/samsung/msm8953-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/samsung/msm8953-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/samsung/msm8953-common/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/samsung/msm8953-common/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/samsung/msm8953-common/proprietary/framework/imsmanager.jar:system/framework/imsmanager.jar \
     vendor/samsung/msm8953-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
@@ -118,15 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libedmnativehelper.so:system/lib64/libedmnativehelper.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
@@ -142,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/samsung/msm8953-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -482,7 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/mmi_gps.so:system/vendor/lib64/mmi_gps.so \
     vendor/samsung/msm8953-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/msm8953-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
