@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/msm8953-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/msm8953-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/msm8953-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/msm8953-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -103,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/msm8953-common/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
-    vendor/samsung/msm8953-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_q3a_core.so:system/lib/libmmcamera2_q3a_core.so \
@@ -117,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/msm8953-common/proprietary/lib64/libedmnativehelper.so:system/lib64/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
