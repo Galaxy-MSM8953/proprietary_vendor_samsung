@@ -33,17 +33,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/j7popltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j7popltespr/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
