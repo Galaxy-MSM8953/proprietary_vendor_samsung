@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/imsmanager_library.xml:system/etc/permissions/imsmanager_library.xml \
     vendor/samsung/msm8953-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
@@ -108,13 +107,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/msm8953-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/samsung/msm8953-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/samsung/msm8953-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/samsung/msm8953-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -124,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/samsung/msm8953-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+    vendor/samsung/msm8953-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/msm8953-common/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/samsung/msm8953-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -132,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
@@ -209,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -342,7 +345,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
@@ -359,13 +363,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -436,9 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
@@ -451,7 +454,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
@@ -461,21 +463,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/samsung/msm8953-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/msm8953-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 PRODUCT_PACKAGES += \
+    libsdm-disp-vndapis \
     libtime_genoff \
     libloc_api_v02 \
-    libsdm-disp-apis \
     ImsSettings \
     TimeService \
     ImsLogger+ \
-    com.qualcomm.location \
-    colorservice \
-    com.qti.snapdragon.sdk.display
+    com.qualcomm.location
