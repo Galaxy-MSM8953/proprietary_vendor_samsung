@@ -343,10 +343,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/samsung/j7poplte-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
