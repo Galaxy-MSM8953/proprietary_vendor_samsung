@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/msm8953-common/proprietary/lib/libcameraservice_cameramodule.so:system/lib/libcameraservice_cameramodule.so \
     vendor/samsung/msm8953-common/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera2_q3a_core.so:system/lib/libmmcamera2_q3a_core.so \
@@ -108,9 +109,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdaf.so:system/lib/libmmcamera_pdaf.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmcamera_pdafcamif.so:system/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/msm8953-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libpalmMobileDetectorFull.so:system/lib/libpalmMobileDetectorFull.so \
     vendor/samsung/msm8953-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libquramresize.so:system/lib/libquramresize.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libsccore.so:system/lib/libsccore.so \
     vendor/samsung/msm8953-common/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/msm8953-common/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
+    vendor/samsung/msm8953-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libQjpeg.so:system/lib64/libQjpeg.so \
@@ -118,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/libatomjpeg.so:system/lib64/libatomjpeg.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libsccore.so:system/lib64/libsccore.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsecjpegquram.so:system/lib64/libsecjpegquram.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
@@ -160,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -196,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib/libjpega.so:system/vendor/lib/libjpega.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -341,6 +347,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libsecimaging.so:system/vendor/lib/libsecimaging.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib/libsecjpeginterface.so:system/vendor/lib/libsecjpeginterface.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
@@ -388,6 +396,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libSEF.so:system/vendor/lib64/libSEF.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
@@ -423,7 +432,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libjpega.so:system/vendor/lib64/libjpega.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
@@ -461,6 +469,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecimaging.so:system/vendor/lib64/libsecimaging.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecjpeginterface.so:system/vendor/lib64/libsecjpeginterface.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
