@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_chromatix.xml:system/etc/camera/s5k5e3yx_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_f2_2_chromatix.xml:system/etc/camera/s5k5e3yx_f2_2_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/sr259_chromatix.xml:system/etc/camera/sr259_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
+    vendor/samsung/j7poplte-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_preview.so:system/vendor/lib/libchromatix_imx219_3a_4k_preview.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_video.so:system/vendor/lib/libchromatix_imx219_3a_4k_video.so \
