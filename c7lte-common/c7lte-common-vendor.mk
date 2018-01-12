@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/etc/camera/s5k5e3yx_f2_2_chromatix.xml:system/etc/camera/s5k5e3yx_f2_2_chromatix.xml \
     vendor/samsung/c7lte-common/proprietary/etc/camera/sr259_chromatix.xml:system/etc/camera/sr259_chromatix.xml \
     vendor/samsung/c7lte-common/proprietary/etc/camera/sr846_chromatix.xml:system/etc/camera/sr846_chromatix.xml \
-    vendor/samsung/c7lte-common/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
+    vendor/samsung/c7lte-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/samsung/c7lte-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libactuator_zc535.so:system/vendor/lib/libactuator_zc535.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_preview.so:system/vendor/lib/libchromatix_imx219_3a_4k_preview.so \
