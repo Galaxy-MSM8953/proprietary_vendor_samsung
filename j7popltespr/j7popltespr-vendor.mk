@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/j7popltespr/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/samsung/j7popltespr/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     vendor/samsung/j7popltespr/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/j7popltespr/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/j7popltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
