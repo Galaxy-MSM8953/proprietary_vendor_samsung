@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/c7ltechn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/samsung/c7ltechn/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     vendor/samsung/c7ltechn/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/c7ltechn/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/c7ltechn/proprietary/bin/netmgrd:system/bin/netmgrd \
