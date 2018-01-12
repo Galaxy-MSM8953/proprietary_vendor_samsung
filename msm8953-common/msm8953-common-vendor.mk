@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/msm8953-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/msm8953-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/msm8953-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/samsung/msm8953-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/samsung/msm8953-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/msm8953-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/msm8953-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
