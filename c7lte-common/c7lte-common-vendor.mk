@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/etc/camera/sr846_chromatix.xml:system/etc/camera/sr846_chromatix.xml \
     vendor/samsung/c7lte-common/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
     vendor/samsung/c7lte-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/samsung/c7lte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/samsung/c7lte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/c7lte-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/c7lte-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
@@ -67,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/c7lte-common/proprietary/lib/slocation/libsgeo.so:system/lib/slocation/libsgeo.so \
     vendor/samsung/c7lte-common/proprietary/lib64/hw/audio.tms.default.so:system/lib64/hw/audio.tms.default.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
