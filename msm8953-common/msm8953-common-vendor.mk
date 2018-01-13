@@ -496,4 +496,5 @@ PRODUCT_PACKAGES += \
     ImsLogger+ \
     com.qualcomm.location \
     colorservice \
+    QPerformance \
     com.qti.snapdragon.sdk.display
