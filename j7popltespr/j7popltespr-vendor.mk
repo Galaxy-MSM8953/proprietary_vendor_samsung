@@ -17,14 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/j7popltespr/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
-    vendor/samsung/j7popltespr/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     vendor/samsung/j7popltespr/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/j7popltespr/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/j7popltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/j7popltespr/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/j7popltespr/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/j7popltespr/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/j7popltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/j7popltespr/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/j7popltespr/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/j7popltespr/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/j7popltespr/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
