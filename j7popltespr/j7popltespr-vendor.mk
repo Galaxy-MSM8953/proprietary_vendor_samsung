@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/j7popltespr/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/j7popltespr/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/j7popltespr/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7popltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/j7popltespr/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/j7popltespr/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -33,11 +34,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/j7popltespr/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/j7popltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/samsung/j7popltespr/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
