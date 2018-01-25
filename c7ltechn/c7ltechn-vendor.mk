@@ -17,14 +17,14 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/c7ltechn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
-    vendor/samsung/c7ltechn/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     vendor/samsung/c7ltechn/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/c7ltechn/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/c7ltechn/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/c7ltechn/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/c7ltechn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c7ltechn/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/c7ltechn/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c7ltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/c7ltechn/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/c7ltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/c7ltechn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/c7ltechn/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -34,6 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/c7ltechn/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/c7ltechn/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/c7ltechn/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/c7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
