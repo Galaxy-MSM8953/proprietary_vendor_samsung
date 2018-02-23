@@ -36,11 +36,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/c7ltechn/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/c7ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
+    vendor/samsung/c7ltechn/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/samsung/c7ltechn/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
