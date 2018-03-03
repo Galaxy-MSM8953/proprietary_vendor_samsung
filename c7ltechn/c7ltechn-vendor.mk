@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/samsung/c7ltechn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c7ltechn/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/c7ltechn/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c7ltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c7ltechn/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/c7ltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -38,8 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/c7ltechn/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/c7ltechn/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
-    vendor/samsung/c7ltechn/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/c7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
@@ -47,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
