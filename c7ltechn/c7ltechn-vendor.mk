@@ -29,12 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c7ltechn/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/c7ltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/samsung/c7ltechn/proprietary/etc/apdr.conf:system/etc/apdr.conf \
     vendor/samsung/c7ltechn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/c7ltechn/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/c7ltechn/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/c7ltechn/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/c7ltechn/proprietary/lib/libarac.so:system/lib/libarac.so \
     vendor/samsung/c7ltechn/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/c7ltechn/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/c7ltechn/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
@@ -44,10 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libPedometer.so:system/lib64/libPedometer.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libSensorNativeProtocol.so:system/lib64/libSensorNativeProtocol.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libSwPedometer.so:system/lib64/libSwPedometer.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libarac.so:system/lib64/libarac.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
@@ -57,26 +51,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c7ltechn/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libvaultkeeperclient.so:system/lib64/libvaultkeeperclient.so \
-    vendor/samsung/c7ltechn/proprietary/lib64/libvaultkeeperjni.so:system/lib64/libvaultkeeperjni.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libactuator_zc535.so:system/vendor/lib/libactuator_zc535.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libmmcamera_s5k3p8sx.so:system/vendor/lib/libmmcamera_s5k3p8sx.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libmmcamera_s5k3p8sx_ak7372.so:system/vendor/lib/libmmcamera_s5k3p8sx_ak7372.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libmmcamera_sr846.so:system/vendor/lib/libmmcamera_sr846.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
@@ -91,20 +74,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libtmdisplay.so:system/vendor/lib/libtmdisplay.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libDiagService.so:system/vendor/lib64/libDiagService.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib64/libOpenCv.so:system/vendor/lib64/libOpenCv.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib64/libPhotoEnhance.so:system/vendor/lib64/libPhotoEnhance.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
@@ -127,11 +103,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib64/libsomp.so:system/vendor/lib64/libsomp.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib64/libtmdisplay.so:system/vendor/lib64/libtmdisplay.so \
-    vendor/samsung/c7ltechn/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/samsung/c7ltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so

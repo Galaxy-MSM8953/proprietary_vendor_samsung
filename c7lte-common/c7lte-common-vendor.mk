@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/samsung/c7lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
+    vendor/samsung/c7lte-common/proprietary/etc/apdr.conf:system/etc/apdr.conf \
     vendor/samsung/c7lte-common/proprietary/etc/camera/D05QL_s5k5e3yx_module_info.xml:system/etc/camera/D05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/c7lte-common/proprietary/etc/camera/I16QL_s5k3p3sx_module_info.xml:system/etc/camera/I16QL_s5k3p3sx_module_info.xml \
     vendor/samsung/c7lte-common/proprietary/etc/camera/M05QS_imx241_module_info.xml:system/etc/camera/M05QS_imx241_module_info.xml \
@@ -58,21 +59,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/samsung/c7lte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/samsung/c7lte-common/proprietary/lib/libSensoryBargeInEngine.so:system/lib/libSensoryBargeInEngine.so \
+    vendor/samsung/c7lte-common/proprietary/lib/libarac.so:system/lib/libarac.so \
     vendor/samsung/c7lte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/c7lte-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/c7lte-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/c7lte-common/proprietary/lib/libfidoauthnr_v1.so:system/lib/libfidoauthnr_v1.so \
     vendor/samsung/c7lte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c7lte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libPedometer.so:system/lib64/libPedometer.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libSensorNativeProtocol.so:system/lib64/libSensorNativeProtocol.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libSensoryBargeInEngine.so:system/lib64/libSensoryBargeInEngine.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libSwPedometer.so:system/lib64/libSwPedometer.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libarac.so:system/lib64/libarac.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libfidoauthnr_v1.so:system/lib64/libfidoauthnr_v1.so \
     vendor/samsung/c7lte-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libvaultkeeperclient.so:system/lib64/libvaultkeeperclient.so \
+    vendor/samsung/c7lte-common/proprietary/lib64/libvaultkeeperjni.so:system/lib64/libvaultkeeperjni.so \
     vendor/samsung/c7lte-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libQjpeg.so:system/vendor/lib/libQjpeg.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libSecPedometer.so:system/vendor/lib/libSecPedometer.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libactuator_zc535.so:system/vendor/lib/libactuator_zc535.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_preview.so:system/vendor/lib/libchromatix_imx219_3a_4k_preview.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_video.so:system/vendor/lib/libchromatix_imx219_3a_4k_video.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_imx219_3a_hfr_120.so:system/vendor/lib/libchromatix_imx219_3a_hfr_120.so \
@@ -586,17 +599,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_sr259_vt_lc898122.so:system/vendor/lib/libchromatix_sr259_vt_lc898122.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_sr259_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_sr259_zsl_preview_lc898122.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libchromatix_sr259_zsl_video_lc898122.so:system/vendor/lib/libchromatix_sr259_zsl_video_lc898122.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libmmcamera_s5k3p8sx.so:system/vendor/lib/libmmcamera_s5k3p8sx.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libmmcamera_s5k3p8sx_ak7372.so:system/vendor/lib/libmmcamera_s5k3p8sx_ak7372.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libmmcamera_sr846.so:system/vendor/lib/libmmcamera_sr846.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libtmdisplay.so:system/vendor/lib/libtmdisplay.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib64/libOpenCv.so:system/vendor/lib64/libOpenCv.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib64/libPhotoEnhance.so:system/vendor/lib64/libPhotoEnhance.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/libQjpeg.so:system/vendor/lib64/libQjpeg.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/libSecPedometer.so:system/vendor/lib64/libSecPedometer.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib64/libsomp.so:system/vendor/lib64/libsomp.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib64/libtmdisplay.so:system/vendor/lib64/libtmdisplay.so \
+    vendor/samsung/c7lte-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/samsung/c7lte-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
