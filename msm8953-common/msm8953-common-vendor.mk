@@ -86,9 +86,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/msm8953-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libSamsungAPVoiceEngine.so:system/lib64/libSamsungAPVoiceEngine.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libaresdns.so:system/lib64/libaresdns.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libcpve-client.so:system/lib64/libcpve-client.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libsveservice.so:system/lib64/libsveservice.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/samsung/msm8953-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/msm8953-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
