@@ -78,9 +78,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libatomjpeg.so:system/lib/libatomjpeg.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libcameraservice_cameramodule.so:system/lib/libcameraservice_cameramodule.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libfidoauthnr_v2.so:system/lib/libfidoauthnr_v2.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libmmcamera2_q3a_core.so:system/lib/libmmcamera2_q3a_core.so \
@@ -99,16 +103,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensorhubs.msm8953.so:system/lib64/hw/sensorhubs.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libarcsoft_bestphoto_select.so:system/lib64/libarcsoft_bestphoto_select.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libatomjpeg.so:system/lib64/libatomjpeg.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libfidoauthnr_v2.so:system/lib64/libfidoauthnr_v2.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsccore.so:system/lib64/libsccore.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsecaudioinfo.so:system/lib64/libsecaudioinfo.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsecjpegquram.so:system/lib64/libsecjpegquram.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libQjpeg.so:system/vendor/lib/libQjpeg.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
