@@ -70,7 +70,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/samsung/c7prolte-common/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
     vendor/samsung/c7prolte-common/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
+    vendor/samsung/c7prolte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/c7prolte-common/proprietary/etc/nfc_key:system/etc/nfc_key \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/hw/nfc_nci.msm8953.so:system/lib/hw/nfc_nci.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/sensorhubs.msm8953.so:system/lib/hw/sensorhubs.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libSisoCameraDistortionEffects.so:system/lib/libSisoCameraDistortionEffects.so \
@@ -105,6 +109,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/hw/nfc_nci.msm8953.so:system/lib64/hw/nfc_nci.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensorhubs.msm8953.so:system/lib64/hw/sensorhubs.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libarcsoft_bestphoto_select.so:system/lib64/libarcsoft_bestphoto_select.so \
@@ -119,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/c7prolte-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libQjpeg.so:system/vendor/lib/libQjpeg.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
