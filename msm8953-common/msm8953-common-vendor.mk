@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/imsd:system/bin/imsd \
     vendor/samsung/msm8953-common/proprietary/bin/iop:system/bin/iop \
     vendor/samsung/msm8953-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/msm8953-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/samsung/msm8953-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/samsung/msm8953-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/msm8953-common/proprietary/bin/pm-service:system/bin/pm-service \
@@ -31,8 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/msm8953-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/msm8953-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/msm8953-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/samsung/msm8953-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/msm8953-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -40,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/msm8953-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/msm8953-common/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/samsung/msm8953-common/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/samsung/msm8953-common/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/samsung/msm8953-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -75,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/samsung/msm8953-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/samsung/msm8953-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/samsung/msm8953-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/samsung/msm8953-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/samsung/msm8953-common/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/samsung/msm8953-common/proprietary/framework/imsmanager.jar:system/framework/imsmanager.jar \
@@ -89,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/lib64/libSamsungAPVoiceEngine.so:system/lib64/libSamsungAPVoiceEngine.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libaresdns.so:system/lib64/libaresdns.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libcpve-client.so:system/lib64/libcpve-client.so \
+    vendor/samsung/msm8953-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/samsung/msm8953-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
@@ -262,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -292,6 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/samsung/msm8953-common/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/samsung/msm8953-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
@@ -303,11 +303,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libsdm-disp-apis \
     libtime_genoff \
     ImsSettings \
     TimeService \
     ImsLogger+ \
     com.qualcomm.location \
-    QPerformance
+    QPerformance \
+    com.qti.location.sdk

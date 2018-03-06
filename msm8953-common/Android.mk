@@ -19,16 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter j7poplteusc j7popltespr c7ltechn c7proltedd on7xltechn,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-apis
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
@@ -102,6 +92,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := QPerformance
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/framework/QPerformance.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qti.location.sdk
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/framework/com.qti.location.sdk.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
