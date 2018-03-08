@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xlte-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/samsung/on7xlte-common/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/samsung/on7xlte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/samsung/on7xlte-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/on7xlte-common/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
     vendor/samsung/on7xlte-common/proprietary/lib/libSisoCameraDistortionEffects.so:system/lib/libSisoCameraDistortionEffects.so \
     vendor/samsung/on7xlte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
@@ -96,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xlte-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/on7xlte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/on7xlte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
+    vendor/samsung/on7xlte-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/samsung/on7xlte-common/proprietary/lib64/libQjpeg.so:system/lib64/libQjpeg.so \
     vendor/samsung/on7xlte-common/proprietary/lib64/libarcsoft_bestphoto_select.so:system/lib64/libarcsoft_bestphoto_select.so \
     vendor/samsung/on7xlte-common/proprietary/lib64/libatomjpeg.so:system/lib64/libatomjpeg.so \
