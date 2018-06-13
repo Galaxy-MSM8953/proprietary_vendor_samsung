@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     vendor/samsung/c7prolte-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/c7prolte-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/samsung/c7prolte-common/proprietary/bin/tlc_server:system/bin/tlc_server \
     vendor/samsung/c7prolte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c7prolte-common/proprietary/etc/camera/D05QL_s5k5e3yx_module_info.xml:system/etc/camera/D05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/c7prolte-common/proprietary/etc/camera/L16OL_s5k3p3sx_module_info.xml:system/etc/camera/L16OL_s5k3p3sx_module_info.xml \
@@ -72,22 +73,35 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
     vendor/samsung/c7prolte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c7prolte-common/proprietary/etc/nfc_key:system/etc/nfc_key \
+    vendor/samsung/c7prolte-common/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/nfc_nci.msm8953.so:system/lib/hw/nfc_nci.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/sensorhubs.msm8953.so:system/lib/hw/sensorhubs.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libSisoCameraDistortionEffects.so:system/lib/libSisoCameraDistortionEffects.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_SamsungRec_06002.so:system/lib/lib_SamsungRec_06002.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libatomjpeg.so:system/lib/libatomjpeg.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libcameraservice_cameramodule.so:system/lib/libcameraservice_cameramodule.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libexpat.so:system/lib/libexpat.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libfidoauthnr_v2.so:system/lib/libfidoauthnr_v2.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
@@ -100,6 +114,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libpalmMobileDetectorFull.so:system/lib/libpalmMobileDetectorFull.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libquramresize.so:system/lib/libquramresize.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsccore.so:system/lib/libsccore.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
@@ -109,6 +128,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_direct_comm.so:system/lib/libtlc_direct_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_proxy_comm.so:system/lib/libtlc_proxy_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_proxy_tui.so:system/lib/libtlc_proxy_tui.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_spay.so:system/lib/libtlc_spay.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tima_atn.so:system/lib/libtlc_tima_atn.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tima_pkm.so:system/lib/libtlc_tima_pkm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tima_tui.so:system/lib/libtlc_tima_tui.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tz_dcm.so:system/lib/libtlc_tz_dcm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tz_esecomm.so:system/lib/libtlc_tz_esecomm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tz_iccc.so:system/lib/libtlc_tz_iccc.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
+    vendor/samsung/c7prolte-common/proprietary/lib/libtlcotp.so:system/lib/libtlcotp.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/nfc_nci.msm8953.so:system/lib64/hw/nfc_nci.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensorhubs.msm8953.so:system/lib64/hw/sensorhubs.msm8953.so \
@@ -125,6 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_direct_comm.so:system/lib64/libtlc_direct_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_proxy_comm.so:system/lib64/libtlc_proxy_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_proxy_tui.so:system/lib64/libtlc_proxy_tui.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_spay.so:system/lib64/libtlc_spay.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tima_atn.so:system/lib64/libtlc_tima_atn.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tima_pkm.so:system/lib64/libtlc_tima_pkm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tima_tui.so:system/lib64/libtlc_tima_tui.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tz_dcm.so:system/lib64/libtlc_tz_dcm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tz_esecomm.so:system/lib64/libtlc_tz_esecomm.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tz_iccc.so:system/lib64/libtlc_tz_iccc.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlc_tz_keystore.so:system/lib64/libtlc_tz_keystore.so \
+    vendor/samsung/c7prolte-common/proprietary/lib64/libtlcotp.so:system/lib64/libtlcotp.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libQjpeg.so:system/vendor/lib/libQjpeg.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
@@ -555,6 +600,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/samsung/c7prolte-common/proprietary/vendor/lib/libtlc_comm.so:system/vendor/lib/libtlc_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/vendor/lib/libtlc_tz_ccm.so:system/vendor/lib/libtlc_tz_ccm.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
@@ -576,5 +623,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libsecjpeginterface.so:system/vendor/lib64/libsecjpeginterface.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libtlc_comm.so:system/vendor/lib64/libtlc_comm.so \
+    vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libtlc_tz_ccm.so:system/vendor/lib64/libtlc_tz_ccm.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
