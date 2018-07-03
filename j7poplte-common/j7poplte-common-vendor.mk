@@ -18,29 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/j7poplte-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/D05QL_s5k5e3yx_module_info.xml:system/etc/camera/D05QL_s5k5e3yx_module_info.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/L16OL_s5k3p3sx_module_info.xml:system/etc/camera/L16OL_s5k3p3sx_module_info.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/M05QS_imx241_module_info.xml:system/etc/camera/M05QS_imx241_module_info.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/P08QL_s5k4h5yc_module_info.xml:system/etc/camera/P08QL_s5k4h5yc_module_info.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/R08QS_imx219_module_info.xml:system/etc/camera/R08QS_imx219_module_info.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx241_chromatix.xml:system/etc/camera/imx241_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8953_camera_j7pop.xml:system/etc/camera/msm8953_camera_j7pop.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_chromatix.xml:system/etc/camera/s5k5e3yx_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/camera/s5k5e3yx_f2_2_chromatix.xml:system/etc/camera/s5k5e3yx_f2_2_chromatix.xml \
-    vendor/samsung/j7poplte-common/proprietary/etc/camera/sr259_chromatix.xml:system/etc/camera/sr259_chromatix.xml \
     vendor/samsung/j7poplte-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/samsung/j7poplte-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/j7poplte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -85,20 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/lib64/libsecjpegquram.so:system/lib64/libsecjpegquram.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_dw9806.so:system/vendor/lib/libactuator_dw9806.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_dw9807.so:system/vendor/lib/libactuator_dw9807.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_preview.so:system/vendor/lib/libchromatix_imx219_3a_4k_preview.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_3a_4k_video.so:system/vendor/lib/libchromatix_imx219_3a_4k_video.so \
@@ -127,231 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_isp_mode_sports.so:system/vendor/lib/libchromatix_imx219_isp_mode_sports.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_isp_snapshot.so:system/vendor/lib/libchromatix_imx219_isp_snapshot.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx219_postproc.so:system/vendor/lib/libchromatix_imx219_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_240.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_240.so:system/vendor/lib/libchromatix_imx230_hfr_240.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so:system/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:system/vendor/lib/libchromatix_imx230_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_video.so:system/vendor/lib/libchromatix_ov8865_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_video_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_liveshot.so:system/vendor/lib/libchromatix_ov8865_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_snapshot.so:system/vendor/lib/libchromatix_ov8865_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_1080p_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_1080p_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_1080p_video_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_1080p_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_4k_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_4k_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_4k_video_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_4k_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_common.so:system/vendor/lib/libchromatix_s5k3p3sx_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_iso_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_iso_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_night_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_night_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_panorama_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_panorama_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_sports_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_sports_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_zoom_ds_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_zoom_ds_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_cpp_zoom_us_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_cpp_zoom_us_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_default_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_default_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_default_video.so:system/vendor/lib/libchromatix_s5k3p3sx_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_default_video_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_default_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_120_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_120_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_60_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_60_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_hfr_90_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_hfr_90_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_4k_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_4k_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_4k_video.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_4k_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_night_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_night_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_panorama_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_panorama_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_sports_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_sports_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_zsl_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_zsl_video.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_3a_zsl_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_common.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_iso_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_iso_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_night_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_night_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_panorama_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_panorama_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_sports_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_sports_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video_wechat.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_cpp_video_wechat.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_default_video.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_iso.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_iso.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_night.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_night.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_panorama.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_panorama.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_sports.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_mode_sports.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_isp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_i16ql_postproc.so:system/vendor/lib/libchromatix_s5k3p3sx_i16ql_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sx_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_mode_iso.so:system/vendor/lib/libchromatix_s5k3p3sx_mode_iso.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_mode_night.so:system/vendor/lib/libchromatix_s5k3p3sx_mode_night.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_mode_panorama.so:system/vendor/lib/libchromatix_s5k3p3sx_mode_panorama.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_mode_sports.so:system/vendor/lib/libchromatix_s5k3p3sx_mode_sports.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_night_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_night_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_panorama_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_panorama_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_postproc.so:system/vendor/lib/libchromatix_s5k3p3sx_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_preview.so:system/vendor/lib/libchromatix_s5k3p3sx_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sx_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_sports_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_sports_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_video_4k.so:system/vendor/lib/libchromatix_s5k3p3sx_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_zsl_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k3p3sx_zsl_video_lc898122.so:system/vendor/lib/libchromatix_s5k3p3sx_zsl_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_1080p_preview_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_1080p_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_1080p_video_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_1080p_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_4k_preview_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_4k_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_4k_video_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_4k_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_common.so:system/vendor/lib/libchromatix_s5k4h5yc_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_video.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_video_wechat.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_video_wechat.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_vt.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_vt.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_vt_30fps.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_vt_30fps.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_cpp_vt_hd.so:system/vendor/lib/libchromatix_s5k4h5yc_cpp_vt_hd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_default_preview_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_default_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_default_video.so:system/vendor/lib/libchromatix_s5k4h5yc_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_default_video_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_default_video_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_hfr_120.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_night_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_night_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_panorama_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_panorama_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_sports_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_sports_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_zsl_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_zsl_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_zsl_video.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_3a_zsl_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_common.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_common.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_iso_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_iso_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_night_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_night_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_panorama_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_panorama_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_sports_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_sports_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_video.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_cpp_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_default_video.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_default_video.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_isp_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_dw9807_postproc.so:system/vendor/lib/libchromatix_s5k4h5yc_dw9807_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_120.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_120.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_120_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_120_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_60.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_60.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_60_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_60_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_90.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_90.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_90_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_hfr_90_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yc_liveshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_postproc.so:system/vendor/lib/libchromatix_s5k4h5yc_postproc.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_preview.so:system/vendor/lib/libchromatix_s5k4h5yc_preview.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yc_snapshot.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_video_4k.so:system/vendor/lib/libchromatix_s5k4h5yc_video_4k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt.so:system/vendor/lib/libchromatix_s5k4h5yc_vt.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_30fps.so:system/vendor/lib/libchromatix_s5k4h5yc_vt_30fps.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_30fps_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_vt_30fps_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_hd.so:system/vendor/lib/libchromatix_s5k4h5yc_vt_hd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_hd_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_vt_hd_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_vt_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_zsl_preview_lc898122.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_zsl_video_lc898122.so:system/vendor/lib/libchromatix_s5k4h5yc_zsl_video_lc898122.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:system/vendor/lib/libchromatix_s5k5e3yx_common.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e3yx_cpp_hfr_120.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e3yx_cpp_liveshot.so \
@@ -423,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw9807_eeprom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
@@ -433,13 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx241.so:system/vendor/lib/libmmcamera_imx241.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -474,40 +210,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:system/vendor/lib/libmmcamera_m24c64s_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k3l2xx.so:system/vendor/lib/libmmcamera_s5k3l2xx.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k3p3sx.so:system/vendor/lib/libmmcamera_s5k3p3sx.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k4h5yc.so:system/vendor/lib/libmmcamera_s5k4h5yc.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_s5k6b2yx.so:system/vendor/lib/libmmcamera_s5k6b2yx.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sr259.so:system/vendor/lib/libmmcamera_sr259.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/samsung/j7poplte-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
