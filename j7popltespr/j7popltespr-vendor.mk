@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib/libsccore.so:system/lib/libsccore.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/samsung/j7popltespr/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
-    vendor/samsung/j7popltespr/proprietary/lib/libsensor.so:system/lib/libsensor.so \
     vendor/samsung/j7popltespr/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/j7popltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/j7popltespr/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
@@ -77,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
-    vendor/samsung/j7popltespr/proprietary/lib64/libsensor.so:system/lib64/libsensor.so \
     vendor/samsung/j7popltespr/proprietary/lib64/libsveservice.so:system/lib64/libsveservice.so \
     vendor/samsung/j7popltespr/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/j7popltespr/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
