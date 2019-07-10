@@ -466,6 +466,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -478,6 +479,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -595,13 +597,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:system/vendor/lib64/vendor.qti.gnss@2.0.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/j7popltespr/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
