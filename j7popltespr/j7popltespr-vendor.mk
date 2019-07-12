@@ -503,6 +503,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecimaging.so:system/vendor/lib/libsecimaging.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecjpeginterface.so:system/vendor/lib/libsecjpeginterface.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecjpegquram.so:system/vendor/lib/libsecjpegquram.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
@@ -669,6 +670,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsec-ril.so:system/vendor/lib64/libsec-ril.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsecnativefeature.so:system/vendor/lib64/libsecnativefeature.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
