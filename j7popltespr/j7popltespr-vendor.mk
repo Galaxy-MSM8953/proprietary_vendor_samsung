@@ -125,9 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
-    vendor/samsung/j7popltespr/proprietary/vendor/bin/ssr_diag:system/vendor/bin/ssr_diag \
-    vendor/samsung/j7popltespr/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
-    vendor/samsung/j7popltespr/proprietary/vendor/bin/subsystem_ramdump:system/vendor/bin/subsystem_ramdump \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
