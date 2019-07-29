@@ -557,6 +557,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so:system/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so:system/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -704,6 +706,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so:system/vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib64/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib64/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib64/vendor.samsung.hardware.radio@1.1_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@1.0_vendor.so:system/vendor/lib64/vendor.samsung.hardware.vibrator@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/j7popltespr/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
@@ -713,6 +717,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     vendor.qti.hardware.fm@1.0 \
     libgpustats \
+    libril \
     libsdm-disp-vndapis \
     libtime_genoff \
     ImsSettings \
