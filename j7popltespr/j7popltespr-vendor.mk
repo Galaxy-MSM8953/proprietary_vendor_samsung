@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/samsung/j7popltespr/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
@@ -96,6 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:system/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
+    vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.vibrator@1.0-service \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/init.qti.fm.sh:system/vendor/bin/init.qti.fm.sh \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
@@ -139,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc \
     vendor/samsung/j7popltespr/proprietary/vendor/etc/izat.conf:system/vendor/etc/izat.conf \
@@ -178,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
@@ -185,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -318,6 +323,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libgnss.so:system/vendor/lib/libgnss.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -345,6 +351,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
@@ -357,13 +365,52 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw9807_eeprom.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:system/vendor/lib/libmmcamera_isp_bpc40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:system/vendor/lib/libmmcamera_isp_demosaic40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:system/vendor/lib/libmmcamera_isp_gamma40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -430,6 +477,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so:system/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:system/vendor/lib/vendor.samsung.camera.device@1.0-impl.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:system/vendor/lib/vendor.samsung.camera.device@3.2-impl.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:system/vendor/lib/vendor.samsung.camera.device@3.3-impl.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.camera.device@3.4-impl.so:system/vendor/lib/vendor.samsung.camera.device@3.4-impl.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so:system/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.2.so:system/vendor/lib/vendor.samsung.hardware.camera.device@3.2.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so:system/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.4.so:system/vendor/lib/vendor.samsung.hardware.camera.device@3.4.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so:system/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
@@ -443,6 +499,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
@@ -506,6 +563,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib64/libgnss.so:system/vendor/lib64/libgnss.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libgps.utils.so:system/vendor/lib64/libgps.utils.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
