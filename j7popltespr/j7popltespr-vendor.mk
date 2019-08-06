@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:system/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.vibrator@1.0-service \
-    vendor/samsung/j7popltespr/proprietary/vendor/bin/init.qti.fm.sh:system/vendor/bin/init.qti.fm.sh \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/samsung/j7popltespr/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
