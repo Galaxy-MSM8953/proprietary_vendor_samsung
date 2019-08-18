@@ -30,36 +30,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/fm_helium.so:system/vendor/lib/fm_helium.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/hw/camera.msm8953.so:system/vendor/lib/hw/camera.msm8953.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libSamsungPostProcess.so:system/vendor/lib/libSamsungPostProcess.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:system/vendor/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SA_GoogleFX_ver124b.so:system/vendor/lib/lib_SA_GoogleFX_ver124b.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SamsungRec_06002.so:system/vendor/lib/lib_SamsungRec_06002.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:system/vendor/lib/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver300.so:system/vendor/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver127a.so:system/vendor/lib/lib_SoundAlive_play_plus_ver127a.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundBooster_ver710.so:system/vendor/lib/lib_SoundBooster_ver710.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_soundaliveresampler.so:system/vendor/lib/lib_soundaliveresampler.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver210.so:system/vendor/lib/lib_SoundAlive_play_plus_ver210.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundBooster_ver900.so:system/vendor/lib/lib_SoundBooster_ver900.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libfloatingfeature.so:system/vendor/lib/libfloatingfeature.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libfm-hci.so:system/vendor/lib/libfm-hci.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libhiddensound.so:system/vendor/lib/libhiddensound.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libprofileparamstorage.so:system/vendor/lib/libprofileparamstorage.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/librecordalive.so:system/vendor/lib/librecordalive.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsamsungVoipResampler.so:system/vendor/lib/libsamsungVoipResampler.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecaudioinfo.so:system/vendor/lib/libsecaudioinfo.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:system/vendor/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libaudiosa.so:system/vendor/lib/soundfx/libaudiosa.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:system/vendor/lib/soundfx/libaudiosaplus_sec.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libmysound.so:system/vendor/lib/soundfx/libmysound.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libmyspace.so:system/vendor/lib/soundfx/libmyspace.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:system/vendor/lib/soundfx/libplaybackrecorder.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:system/vendor/lib/soundfx/libsamsungSoundbooster_plus.so \
-    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@1.0.so:system/vendor/lib/vendor.samsung.hardware.vibrator@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/fm_helium.so:system/vendor/lib64/fm_helium.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
@@ -187,7 +169,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:system/vendor/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SamsungRec_06005.so:system/vendor/lib/lib_SamsungRec_06005.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:system/vendor/lib/lib_SoundAlive_3DPosition_ver202.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:system/vendor/lib/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/lib_soundaliveresampler.so:system/vendor/lib/lib_soundaliveresampler.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -386,13 +373,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/librecordalive.so:system/vendor/lib/librecordalive.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsamsungVoipResampler.so:system/vendor/lib/libsamsungVoipResampler.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecaudioinfo.so:system/vendor/lib/libsecaudioinfo.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -415,9 +405,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:system/vendor/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libmysound.so:system/vendor/lib/soundfx/libmysound.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libmyspace.so:system/vendor/lib/soundfx/libmyspace.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:system/vendor/lib/soundfx/libplaybackrecorder.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:system/vendor/lib/soundfx/libsamsungSoundbooster_plus.so \
+    vendor/samsung/j7popltespr/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
     vendor/samsung/j7popltespr/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
